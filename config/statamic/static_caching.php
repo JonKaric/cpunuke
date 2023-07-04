@@ -37,6 +37,7 @@ return [
             'driver' => 'file',
             'path' => public_path('static'),
             'lock_hold_length' => 0,
+            'warm_concurrency' => 1
         ],
 
     ],
